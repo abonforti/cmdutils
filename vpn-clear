@@ -1,0 +1,3 @@
+#!/bin/bash
+cat /dev/null > ~/vpnpass.txt
+echo 'Credentials cleared' | terminal-notifier
