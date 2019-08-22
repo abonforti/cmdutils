@@ -1,7 +1,0 @@
-#!/bin/bash
-
-PASSWORD=`cat ~/.goep_password` 
-TOTP=`/usr/local/Cellar/oath-toolkit/2.6.2/bin/oathtool --totp -b GU6ON4MWCTFTPOVF`
-GOEP_ACCOUNT="a.bonforti"
-
-printf "$PASSWORD$TOTP" | pbcopy
